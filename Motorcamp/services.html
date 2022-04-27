@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title>Services</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+   
+</head>
+<body style="background-color:powderblue">
+  <section class="sub-header">
+    <nav>
+      <a href="index.html">MOTORCAMP</a>
+      <div class="nav-links" id="navLinks">
+        <i class="far fa-times-circle" onclick="hideMenu()"></i>
+
+      <ul>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="signup.php">Signup</a>
+    <a href="login.php">Login</a>
+    <a href="buyrv.html">Buy Campervan</a>
+    <a href="rentrv.html">Rent Campervan</a>
+    <a href="services.html">Our Services</a>
+    <a href="aboutus.html">About-Us</a>
+    <a href="contact.html">Contact Us</a>
+  </div>
+</div>
+
+<span style="font-size:30px;cursor:pointer; float: right; position: relative;padding-right: 70px; color:white;" onclick="openNav()">&#9776; Menu   </span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+    <div class="heading"> 
+    <h1>Our Sevices</h1>
+    </div>
+  </section>
+<!-- service -->
+<section class="services" id="rv">
+      <h1>Reclamation Vehical-RV</h1>
+      <div class="row">
+
+    <div class="services-col">
+
+     <p>Rv are mostly preferred for 7-8 people. You can enjoy the big suit of luxury of wheel.<br>
+      Try our Packages for RV and have a great time with your friends and family. <br> Have a 1BHK Home with you!!
+     </p>  
+    </div>
+    <div class="services-col">
+      <img src="image/busrv.jpg"> 
+    </div>
+    
+  </div>
+  <h1>Camping Suv</h1>
+  <div class="row">
+
+    <div class="services-col">
+      <img src="image/suvrv.jpg"> 
+    </div>
+
+    <div class="services-col">
+
+     <p>Even though SUVs are a more inexpensive and simple option for camping and traveling, there are a few cons to sleeping and cooking out of a space the size of a queen mattress
+     It is a great idea for oneday trips and open sky camping for overnight. </p>
+    </div>
+    
+    
+  </div>
+  <h1>Mini Bus</h1>
+  <div class="row">
+
+    <div class="services-col">
+
+     <p>Rv are mostly preferred for 7-8 people. You can enjoy the big suit of luxury of wheel.<br>
+      Try our Packages for RV and have a great time with your friends and family. 
+     </p>  
+    </div>
+    <div class="services-col">
+      <img src="image/mini.jpg"> 
+    </div>
+    
+  </div>
+</section>
+
+
+
+<!-- Footer -->
+ <section class="footer">
+    
+     <div class="icons">
+                <a href="#"></a>
+                <a href="https://facebook.com"><span class="fab fa-facebook-f"style="color: white; background: #3B5998; "></span></a>
+                <a href="https://twitter.com"><span class="fab fa-twitter" style="background: #55ACEE; color: white; "></span></a>
+                <a href="https://instagram.com"><span class="fab fa-instagram" style=" background: #f09433; background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); color: white; "></span></a>
+                <a href="https://youtube.com"><span class="fab fa-youtube" style="background: #bb0000; color: white"></span></a>
+                
+      </div>
+
+     <h5 style="padding-top:30px;font-size:20px;">Made with <i class="fas fa-heart"></i> By Riya</h5>
+ </section>
+
+  <!-- java script for toggle for small screen -->
+<script type="text/javascript">
+  var navLinks = document.getElementById("navLinks");
+
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+
+</script>
+</body>
+</html>

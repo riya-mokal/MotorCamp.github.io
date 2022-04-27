@@ -1,0 +1,198 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+	background-image: url('../image/enquire.jpg');
+	background-size: cover;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+
+.home{
+	margin-top: 25px;
+	margin-left: 25px;
+	height: 15px;
+	line-height: 35px;
+	text-decoration: none;
+	font-size: 23px;
+
+}
+.home a{
+	padding: 15px;
+	margin-top: 4px;
+	text-decoration: none;
+	color: white;
+	width: 30px;
+}
+
+.home a span{
+	color: red;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 0%;
+	margin-right: 70px;
+	
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 12px 22px;
+	border: 1px solid #fff;
+	transition: 0.6s ease;
+	width: 25%;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 14vh;
+	background:rgba(0,0,0,0.5);
+	border-bottom: 2px solid red;
+
+}
+/* end of header*/
+
+footer{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 86%;
+  margin-top: auto;
+
+  background:rgba(0,0,0,0.5);
+  
+}
+.foot{
+  display: flex;
+}
+.foot .box{
+  flex-basis: 50%;
+  padding: 10px 20px; 
+}
+.box h3{
+  font-size: 30px;
+  font-weight: 600;
+  color: #ffff;
+}
+.box h3 span{
+  color: #F25E41;
+}
+.box .content span{
+   position: relative;
+     height: 50%;
+     width: 100%;
+     top: 10px;
+     color: #fff;
+}
+.left .content .fas{
+  font-size: 1.4375rem;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+
+}
+.left .content .fas:hover{
+  background: #F25E41;
+}
+.center .content .text{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 15px;
+
+}
+.left .content .phone{
+  margin: 10px 0;
+}
+.right form .text{
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  margin-right: 70px;
+}
+.right form .msg{
+  margin-top: 10px;
+}
+.right form input{
+  border: 3px solid #F25E41;
+  height: 45px;
+  width: 400px;
+  border-radius: 50px;
+  padding: 0px 10px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.right form .btn{
+  margin-top: 20px;
+}
+.right form .btn button{
+  height: 40px;
+  width: 40%;
+  margin-left: -150px;
+  margin-top: 5px;
+  border: solid #F25E41;
+  border-radius: 50px;
+  color: #000;
+  background: #fff;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+}
+.right form .btn button:hover{
+  background-color:  #F25E41;
+  color: #000;
+}
+
+.center .social{
+  margin: 20px 0 0 0;
+  padding: 0 2px;
+}
+.center .social a span{
+  padding: 5px 5px;
+  height: 40px;
+  width: 40px;
+  background: #fff;
+  line-height: 40px;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 5px;
+  transition: 0.3s;
+  margin-bottom: 10px;
+}
+.center .social a span:hover{
+  background: #fff;
+}
+.center h3{
+	padding: 35px;
+  font-size: 40px;
+  font-weight: 800;
+  color: #ffff;
+  border-bottom: solid #F25E41;
+  width: 100px;
+}
+.center h3 span{
+  color: #F25E41;
+}
+/*end of footer*/

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+   
+</head>
+<body style="background-color:powderblue">
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">MOTORCAMP</a>
+            <div class="nav-links" id="navLinks">
+                <i class="far fa-times-circle" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="login.php">Login</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="signup.php">Signup</a>
+    <a href="login.php">Login</a>
+    <a href="buyrv.html">Buy Campervan</a>
+    <a href="rentrv.html">Rent Campervan</a>
+    <a href="services.html">Our Services</a>
+    <a href="aboutus.html">About-Us</a>
+    <a href="contact.html">Contact Us</a>
+  </div>
+</div>
+
+<span style="font-size:30px;cursor:pointer; float: right; position: relative;padding-right: 70px; color:white;" onclick="openNav()">&#9776; Menu   </span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+        <div class="heading">
+            <h1>Contact </h1>
+        </div>
+
+    </section>
+    <!-- contact -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.669230344883!2d73.1257589148998!3d18.990209987137227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c20915c6b931%3A0xc0f727c8f1050385!2sPillai%20College%20of%20Arts%2C%20Commerce%20and%20Science!5e0!3m2!1sen!2sin!4v1631695861842!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Pillai College of Arts, Commerce & Science</h5>
+                        <p>Dr. K. M. Vasudevan Pillai Campus Plot No. 10, Sector 16 New Panvel – 410 206, MH, India</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>022-2745 1700/ 6100/ 6030/ 2748 1764</h5>
+                        <p>Monday to Saturday,10am to 5pm</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>info@motorcamp.com</h5>
+                        <p>Email for any query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" name="" placeholder="Enter your name" required>
+                    <input type="text" name="" placeholder="Enter your Email" required>
+                    <input type="text" name="" placeholder="Enter your Subject" required>
+                    <textarea rows="8" placeholder="Message"> </textarea>
+                    <button type="submit" class="sub-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <!-- Footer -->
+<section class="footer">
+
+        <div class="icons">
+            <a href="#"></a>
+            <a href="https://facebook.com"><span class="fab fa-facebook-f" style="color: white; background: #3B5998; "></span></a>
+            <a href="https://twitter.com"><span class="fab fa-twitter" style="background: #55ACEE; color: white; "></span></a>
+            <a href="https://instagram.com"><span class="fab fa-instagram" style=" background: #f09433; background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); color: white; "></span></a>
+            <a href="https://youtube.com"><span class="fab fa-youtube" style="background: #bb0000; color: white"></span></a>
+
+        </div>
+
+        <h5 style="padding-top:30px;font-size:20px;">Made with <i class="fas fa-heart"></i> By Riya</h5>
+</section>
+    <!-- java script for toggle for small screen -->
+    <script type="text/javascript">
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title>About-Us</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+   
+</head>
+<body style="background-color:powderblue">
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">MOTORCAMP</a>
+            <div class="nav-links" id="navLinks">
+                <i class="far fa-times-circle" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="login.php">Login</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="signup.php">Signup</a>
+    <a href="login.php">Login</a>
+    <a href="buyrv.html">Buy Campervan</a>
+    <a href="rentrv.html">Rent Campervan</a>
+    <a href="services.html">Our Services</a>
+    <a href="aboutus.html">About-Us</a>
+    <a href="contact.html">Contact Us</a>
+  </div>
+</div>
+
+<span style="font-size:30px;cursor:pointer; float: right; position: relative;padding-right: 70px; color:white;" onclick="openNav()">&#9776; Menu   </span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+        <div class="heading">
+            <h1>About Us </h1>
+        </div>
+
+    </section>
+    <!-- aboutus -->
+    <section class="aboutus">
+        <div class="row">
+            <div class="aboutus-col">
+                <h1>MotorCamp</h1>
+                <p>
+                    MotorCamp offers a wide range of services and aminities, suitable for all.
+                    Motorhome or recreational vehical are very popular in western country's.
+                    Motorhomes usually have sleeping spaces for 2–8 people. Each sleeping space is either fixed or converts from another part of the motorhome's interior, usually a fold-out sofa. A kitchenette area contains cooking equipment. The type of equipment included differs depending on the motorhome make and model, but generally a kitchenette has a stovetop, oven, refrigerator, and sink. More luxury models may also provide a microwave. A small bathroom with a shower, sink and toilet is usually also located in the motorhome. On smaller motorhomes, the toilet may be of the "cassette toilet" type, which is a kind of portable toilet or container-based toilet. The toilet sometimes swivels to provide extra room and can be accessed from outside the motorhome for easy emptying.Larger motorhomes usually have a separate shower cubicle.
+                    Our goal is to provide world class facilites and services to our customer.
+                </p>
+            </div>
+            <div class="aboutus-col">
+                <img src="image/logo.png">
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <!-- Footer -->
+<section class="footer">
+
+        <div class="icons">
+            <a href="#"></a>
+            <a href="https://facebook.com"><span class="fab fa-facebook-f" style="color: white; background: #3B5998; "></span></a>
+            <a href="https://twitter.com"><span class="fab fa-twitter" style="background: #55ACEE; color: white; "></span></a>
+            <a href="https://instagram.com"><span class="fab fa-instagram" style=" background: #f09433; background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); color: white; "></span></a>
+            <a href="https://youtube.com"><span class="fab fa-youtube" style="background: #bb0000; color: white"></span></a>
+
+        </div>
+
+        <h5 style="padding-top:30px;font-size:20px;">Made with <i class="fas fa-heart"></i> By Riya</h5>
+</section>
+
+    <!-- java script for toggle for small screen -->
+    <script type="text/javascript">
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    <body style="background-color:powderblue; height: 100%">
+        <section class="sub-header">
+            <nav>
+                <a href="index.html">MOTORCAMP</a>
+                <div class="nav-links" id="navLinks">
+                    <i class="far fa-times-circle" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="signup.html">Sign-in</a></li>
+
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Login</h1>
+        </section>
+        <!-- login-->
+        <section class="login">
+            <!--<?php
+           if($error != "") {
+            echo '<div class="alert alert-danger" role="alert">'.$error.'</div>';
+           }
+
+        ?>-->
+            <form action="" method="post">
+                <h4>Username:</h4>
+                <input type="text" name="username" id="user" placeholder="username">
+                <h4>Password:</h4>
+                <input type="password" name="password" id="pass" placeholder="Password">
+                <h5>Dont have a account<a href="signup.html">Click Here</a></h5>
+                <a href="index.html">
+                <input class="btn" type="submit"></a>
+
+            </form>
+        </section>
+        <!-- Footer -->
+        <section class="footer">
+
+            <div class="icons">
+                <a href="#"></a>
+                <a href="https://facebook.com"><span class="fab fa-facebook-f" style="color: white; background: #3B5998; "></span></a>
+                <a href="https://twitter.com"><span class="fab fa-twitter" style="background: #55ACEE; color: white; "></span></a>
+                <a href="https://instagram.com"><span class="fab fa-instagram" style=" background: #f09433; background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); color: white; "></span></a>
+                <a href="https://youtube.com"><span class="fab fa-youtube" style="background: #bb0000; color: white"></span></a>
+
+            </div>
+
+            <h5 style="padding-top:30px;font-size:20px;">Made with <i class="fas fa-heart"></i> By Riya</h5>
+        </section>
+        <!-- java script for toggle for small screen -->
+        <script type="text/javascript">
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+    </body>
+</html>
